@@ -1,0 +1,27 @@
+{
+  "name": "markdown-code-snippets",
+  "displayName": "markdown code snippets",
+  "description": "Code blocks for markdown snippets",
+  "author": {
+    "email": "kevinrf100@gmail.com",
+    "name": "Kevin Rossetti Fernandes"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.106.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "markdown",
+        "path": "./snippets/markdown.code-snippets"
+      }
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}

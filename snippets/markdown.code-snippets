@@ -1,0 +1,627 @@
+{
+	// ============================================
+	// LANGUAGES
+	// ============================================
+	// Shell & Scripts
+	"bash": {
+		"prefix": "bash",
+		"body": [
+			"```bash",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Bash code block",
+	},
+	"shell": {
+		"prefix": "sh",
+		"body": [
+			"```sh",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Shell code block",
+	},
+	"powershell": {
+		"prefix": "powershell",
+		"body": [
+			"```powershell",
+			"$1",
+			"```"
+		],
+		"description": "Insert a PowerShell code block",
+	},
+	"batch": {
+		"prefix": "bat",
+		"body": [
+			"```bat",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Batch code block",
+	},
+	// Backend Languages
+	"python": {
+		"prefix": "python",
+		"body": [
+			"```python",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Python code block",
+	},
+	"java": {
+		"prefix": "java",
+		"body": [
+			"```java",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Java code block",
+	},
+	"csharp": {
+		"prefix": "csharp",
+		"body": [
+			"```csharp",
+			"$1",
+			"```"
+		],
+		"description": "Insert a C# code block",
+	},
+	"c": {
+		"prefix": "c",
+		"body": [
+			"```c",
+			"$1",
+			"```"
+		],
+		"description": "Insert a C code block",
+	},
+	"cpp": {
+		"prefix": "cpp",
+		"body": [
+			"```cpp",
+			"$1",
+			"```"
+		],
+		"description": "Insert a C++ code block",
+	},
+	"go": {
+		"prefix": "go",
+		"body": [
+			"```go",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Go code block",
+	},
+	"rust": {
+		"prefix": "rust",
+		"body": [
+			"```rust",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Rust code block",
+	},
+	"ruby": {
+		"prefix": "ruby",
+		"body": [
+			"```ruby",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Ruby code block",
+	},
+	"php": {
+		"prefix": "php",
+		"body": [
+			"```php",
+			"$1",
+			"```"
+		],
+		"description": "Insert a PHP code block",
+	},
+	"perl": {
+		"prefix": "perl",
+		"body": [
+			"```perl",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Perl code block",
+	},
+	"r": {
+		"prefix": "r",
+		"body": [
+			"```r",
+			"$1",
+			"```"
+		],
+		"description": "Insert an R code block",
+	},
+	"lua": {
+		"prefix": "lua",
+		"body": [
+			"```lua",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Lua code block",
+	},
+	// Frontend Languages
+	"javascript": {
+		"prefix": "javascript",
+		"body": [
+			"```javascript",
+			"$1",
+			"```"
+		],
+		"description": "Insert a JavaScript code block",
+	},
+	"js": {
+		"prefix": "js",
+		"body": [
+			"```js",
+			"$1",
+			"```"
+		],
+		"description": "Insert a JavaScript code block",
+	},
+	"typescript": {
+		"prefix": "typescript",
+		"body": [
+			"```typescript",
+			"$1",
+			"```"
+		],
+		"description": "Insert a TypeScript code block",
+	},
+	"ts": {
+		"prefix": "ts",
+		"body": [
+			"```ts",
+			"$1",
+			"```"
+		],
+		"description": "Insert a TypeScript code block",
+	},
+	"html": {
+		"prefix": "html",
+		"body": [
+			"```html",
+			"$1",
+			"```"
+		],
+		"description": "Insert an HTML code block",
+	},
+	"css": {
+		"prefix": "css",
+		"body": [
+			"```css",
+			"$1",
+			"```"
+		],
+		"description": "Insert a CSS code block",
+	},
+	"scss": {
+		"prefix": "scss",
+		"body": [
+			"```scss",
+			"$1",
+			"```"
+		],
+		"description": "Insert a SCSS code block",
+	},
+	"sass": {
+		"prefix": "sass",
+		"body": [
+			"```sass",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Sass code block",
+	},
+	"less": {
+		"prefix": "less",
+		"body": [
+			"```less",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Less code block",
+	},
+	"vue": {
+		"prefix": "vue",
+		"body": [
+			"```vue",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Vue code block",
+	},
+	"svelte": {
+		"prefix": "svelte",
+		"body": [
+			"```svelte",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Svelte code block",
+	},
+	// Mobile Languages
+	"swift": {
+		"prefix": "swift",
+		"body": [
+			"```swift",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Swift code block",
+	},
+	"kotlin": {
+		"prefix": "kotlin",
+		"body": [
+			"```kotlin",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Kotlin code block",
+	},
+	"dart": {
+		"prefix": "dart",
+		"body": [
+			"```dart",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Dart code block",
+	},
+	"objectivec": {
+		"prefix": "objc",
+		"body": [
+			"```objectivec",
+			"$1",
+			"```"
+		],
+		"description": "Insert an Objective-C code block",
+	},
+	// JVM Languages
+	"scala": {
+		"prefix": "scala",
+		"body": [
+			"```scala",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Scala code block",
+	},
+	"groovy": {
+		"prefix": "groovy",
+		"body": [
+			"```groovy",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Groovy code block",
+	},
+	// Functional Languages
+	"haskell": {
+		"prefix": "haskell",
+		"body": [
+			"```haskell",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Haskell code block",
+	},
+	"elixir": {
+		"prefix": "elixir",
+		"body": [
+			"```elixir",
+			"$1",
+			"```"
+		],
+		"description": "Insert an Elixir code block",
+	},
+	"erlang": {
+		"prefix": "erlang",
+		"body": [
+			"```erlang",
+			"$1",
+			"```"
+		],
+		"description": "Insert an Erlang code block",
+	},
+	"clojure": {
+		"prefix": "clojure",
+		"body": [
+			"```clojure",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Clojure code block",
+	},
+	// Other Languages
+	"graphql": {
+		"prefix": "graphql",
+		"body": [
+			"```graphql",
+			"$1",
+			"```"
+		],
+		"description": "Insert a GraphQL code block",
+	},
+	"latex": {
+		"prefix": "latex",
+		"body": [
+			"```latex",
+			"$1",
+			"```"
+		],
+		"description": "Insert a LaTeX code block",
+	},
+	"tex": {
+		"prefix": "tex",
+		"body": [
+			"```tex",
+			"$1",
+			"```"
+		],
+		"description": "Insert a TeX code block",
+	},
+	"markdown": {
+		"prefix": "markdown",
+		"body": [
+			"```markdown",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Markdown code block",
+	},
+	"diff": {
+		"prefix": "diff",
+		"body": [
+			"```diff",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Diff code block",
+	},
+	// ============================================
+	// DATA FORMATS
+	// ============================================
+	"json": {
+		"prefix": "json",
+		"body": [
+			"```json",
+			"$1",
+			"```"
+		],
+		"description": "Insert a JSON code block",
+	},
+	"yaml": {
+		"prefix": "yaml",
+		"body": [
+			"```yaml",
+			"$1",
+			"```"
+		],
+		"description": "Insert a YAML code block",
+	},
+	"yml": {
+		"prefix": "yml",
+		"body": [
+			"```yml",
+			"$1",
+			"```"
+		],
+		"description": "Insert a YAML code block",
+	},
+	"xml": {
+		"prefix": "xml",
+		"body": [
+			"```xml",
+			"$1",
+			"```"
+		],
+		"description": "Insert an XML code block",
+	},
+	"toml": {
+		"prefix": "toml",
+		"body": [
+			"```toml",
+			"$1",
+			"```"
+		],
+		"description": "Insert a TOML code block",
+	},
+	"csv": {
+		"prefix": "csv",
+		"body": [
+			"```csv",
+			"$1",
+			"```"
+		],
+		"description": "Insert a CSV code block",
+	},
+	// ============================================
+	// CONFIG FILES
+	// ============================================
+	"ini": {
+		"prefix": "ini",
+		"body": [
+			"```ini",
+			"$1",
+			"```"
+		],
+		"description": "Insert an INI code block",
+	},
+	"properties": {
+		"prefix": "properties",
+		"body": [
+			"```properties",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Properties code block",
+	},
+	"dotenv": {
+		"prefix": "dotenv",
+		"body": [
+			"```dotenv",
+			"$1",
+			"```"
+		],
+		"description": "Insert a .env code block",
+	},
+	"env": {
+		"prefix": "env",
+		"body": [
+			"```env",
+			"$1",
+			"```"
+		],
+		"description": "Insert an environment variables code block",
+	},
+	"dockerfile": {
+		"prefix": "dockerfile",
+		"body": [
+			"```dockerfile",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Dockerfile code block",
+	},
+	"dockerignore": {
+		"prefix": "dockerignore",
+		"body": [
+			"```dockerignore",
+			"$1",
+			"```"
+		],
+		"description": "Insert a .dockerignore code block",
+	},
+	"gitignore": {
+		"prefix": "gitignore",
+		"body": [
+			"```gitignore",
+			"$1",
+			"```"
+		],
+		"description": "Insert a .gitignore code block",
+	},
+	"nginx": {
+		"prefix": "nginx",
+		"body": [
+			"```nginx",
+			"$1",
+			"```"
+		],
+		"description": "Insert an Nginx config code block",
+	},
+	"apache": {
+		"prefix": "apache",
+		"body": [
+			"```apache",
+			"$1",
+			"```"
+		],
+		"description": "Insert an Apache config code block",
+	},
+	"makefile": {
+		"prefix": "makefile",
+		"body": [
+			"```makefile",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Makefile code block",
+	},
+	// ============================================
+	// DATABASE
+	// ============================================
+	"sql": {
+		"prefix": "sql",
+		"body": [
+			"```sql",
+			"$1",
+			"```"
+		],
+		"description": "Insert a SQL code block",
+	},
+	"mysql": {
+		"prefix": "mysql",
+		"body": [
+			"```mysql",
+			"$1",
+			"```"
+		],
+		"description": "Insert a MySQL code block",
+	},
+	"postgresql": {
+		"prefix": "postgresql",
+		"body": [
+			"```postgresql",
+			"$1",
+			"```"
+		],
+		"description": "Insert a PostgreSQL code block",
+	},
+	"plsql": {
+		"prefix": "plsql",
+		"body": [
+			"```plsql",
+			"$1",
+			"```"
+		],
+		"description": "Insert a PL/SQL code block",
+	},
+	"tsql": {
+		"prefix": "tsql",
+		"body": [
+			"```tsql",
+			"$1",
+			"```"
+		],
+		"description": "Insert a T-SQL code block",
+	},
+	"mongodb": {
+		"prefix": "mongodb",
+		"body": [
+			"```mongodb",
+			"$1",
+			"```"
+		],
+		"description": "Insert a MongoDB code block",
+	},
+	"redis": {
+		"prefix": "redis",
+		"body": [
+			"```redis",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Redis code block",
+	},
+	// ============================================
+	// UTILITIES
+	// ============================================
+	"plaintext": {
+		"prefix": "text",
+		"body": [
+			"```text",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Plain Text code block",
+	},
+	"log": {
+		"prefix": "log",
+		"body": [
+			"```log",
+			"$1",
+			"```"
+		],
+		"description": "Insert a Log code block",
+	},
+}
