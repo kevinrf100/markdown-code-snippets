@@ -6,6 +6,10 @@
     "email": "kevinrf100@gmail.com",
     "name": "Kevin Rossetti Fernandes"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinrf100/markdown-code-snippets.git"
+  },
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.106.0"
