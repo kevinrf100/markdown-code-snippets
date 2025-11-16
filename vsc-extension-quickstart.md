@@ -4,7 +4,7 @@
 
 * This folder contains all of the files necessary for your extension.
 * `package.json` - this is the manifest file that defines the location of the snippet file and specifies the language of the snippets.
-* `snippets/snippets.code-snippets` - the file containing all snippets.
+* `snippets/markdown.code-snippets` - the file containing all snippets.
 
 ## Get up and running straight away
 
@@ -20,4 +20,4 @@
 ## Install your extension
 
 * To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/api/working-with-extensions/publishing-extension about publishing an extension.
+* To share your extension with the world, read on <https://code.visualstudio.com/api/working-with-extensions/publishing-extension> about publishing an extension.

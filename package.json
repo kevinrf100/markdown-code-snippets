@@ -14,6 +14,10 @@
   "engines": {
     "vscode": "^1.106.0"
   },
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
   "categories": [
     "Snippets"
   ],

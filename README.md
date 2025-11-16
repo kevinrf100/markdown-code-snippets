@@ -22,6 +22,10 @@ Or install from the command line:
 code --install-extension markdown-code-snippets
 ```
 
+## Extension quickstart
+
+[Vscode extension quick start](vsc-extension-quickstart.md)
+
 ## Usage
 
 When editing a Markdown file, simply type the language name and press `Tab` to insert a code block.
@@ -147,7 +151,7 @@ When documenting a web project in your README:
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you'd like to add more languages or improve existing snippets:
+Contributions are welcome ❤️! If you'd like to add more languages or improve existing snippets:
 
 1. Fork the repository
 2. Make your changes
