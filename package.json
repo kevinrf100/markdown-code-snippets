@@ -36,6 +36,10 @@
       {
         "language": "markdown",
         "path": "./snippets/markdown.code-snippets"
+      },
+      {
+        "language": "juliamarkdown",
+        "path": "./snippets/markdown.code-snippets"
       }
     ]
   },
