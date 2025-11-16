@@ -21,6 +21,16 @@
   "categories": [
     "Snippets"
   ],
+  "keywords": [
+    "markdown snippets",
+    "snippets",
+    "markdown",
+    "languages",
+    "markdown code block",
+    "code block",
+    "markdown snippet extension",
+    "markdown code snippets"
+  ],
   "contributes": {
     "snippets": [
       {
